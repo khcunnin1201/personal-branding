@@ -1,0 +1,20 @@
+
+[
+{"id": 1,
+"url": "https://khcunnin-contact-form.netlify.com/",
+"image": "/images/contactform.jpg",
+"description": "The contact form was developed using CSS animations and connects directly to Firebase (a noSQL database option)."
+},
+
+{"id": 2,
+"url": "https://khcunnin-restaurant-mobile.netlify.com/",
+"image": "/images/restaurant.jpg",
+"description": "The restaurant application was built with a mobile-first mindset."
+},
+
+{"id": 3,
+"url": "https://khcunnin-candyshop.netlify.com/",
+"image": "/images/candyshop.jpg",
+"description": "The candy shop site was created using Bootstrap and JQuery."
+}
+]

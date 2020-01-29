@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+    <!-- add fonts that I might use -->
+    <link href="https://fonts.googleapis.com/css?family=Allura|Forum|Redressed&display=swap" rel="stylesheet">
+
+    <!-- add bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--add css file  -->
+    <link rel="stylesheet" href="/style.css">
+
+    <title>KHC Capstone</title>
+</head>
+
+<body>
+<!-- nav bar begins -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/index.html">KHC</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#about">About</a>
+        <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-item nav-link" href="#contact">Contact</a>
+      </div>
+    </div>
+</nav>
+<!-- nav bar ends -->
+
+<!-- home page begins -->
+<section id="top">
+    <div class="container">
+        <div class="img">
+            <div class="background-image"></div>
+        </div>
+        <div class="info">
+            <h1>Kris Cunningham</h1>
+            <p>Web Developer & Engineer</p>
+            <p>Curious and creative storyteller</p>
+        </div>
+    </div>
+   
+</section>
+<!-- home page ends -->
+
+<!-- about me section begins -->
+<section id="about">
+    <h1 class="aboutme">About Me</h1>
+    <div class="container">    
+        <div class="me">
+            <h2>Get to know me</h2>
+            <p>I am data driven, detail oriented and strive to understand the big picture. I think systematically and strategically.  I have considerable Program Management experience and have always worked across organizational lines.  I am confident my engineering background and my experiences working side by side with IT personnel will continue to help me as I continue my web development career.  I enjoy downtime trying new restaurants, reading, watching tv and movies or being creative – through scrapbooks, quilts or diy projects.</p>   
+        </div>
+        
+        <div class="skillset">
+            <h2>Skills</h2>  
+            <div class="skill-container">
+                <div id="tech"></div>
+                <div id="mgmt"></div>
+            </div>
+        </div>
+    </div>
+    <div class="resume">
+        <a href="/Kris Cunningham Resume.pdf" class="btn btn-info btn-lg">Download Resume</a> 
+        <!-- <button href="/Kris Cunningham Resume.pdf" class="btn btn-outline-primary">Download Resume</button> -->
+    </div>
+        <div class="social-container">
+            <!-- <p>social media links go here</p> --> 
+            <a href="https://www.linkedin.com/in/kris-cunningham/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/khcunnin1201/" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+
+</section>
+<!-- about me section ends -->
+
+<!-- portfolio section begins -->
+<section id="portfolio">
+    <h1>Portfolio</h1>
+    <div id="port"></div>
+</section>
+<!-- portfolio section ends -->
+  
+<!-- contact section begins -->
+<section id="contact">
+    <h1>Contact Me</h1>
+
+<!-- contact form begins  -->
+    <div class="contact-container">
+        <div class="wrapper">
+            <div class="company-info">
+               <h3>Contact Information</h3>
+               <ul>
+                   <li><i class="fas fa-phone"></i> (423) 243- 7820</li>
+                   <li><i class="fas fa-envelope"></i> khcunnin1201@gmail.com</li>
+               </ul>
+           </div>
+           <div class="contact">
+               <h3>Email Me</h3>
+               <div class="alert">Your message has been sent.</div>
+               <form id="contactForm" action="https://formspree.io/mlebepkz" method="POST">
+                
+                   <p> <label>Name</label> <input type="text" name="name" id="name"> </p>
+                   <p> <label>Company</label> <input type="text" name="company" id="company"> </p>
+                   <p> <label>Email Address</label> <input type="text" name="email" id="email"> </p>
+                   <p> <label>Phone Number</label> <input type="text" name="phone" id="phone"> </p>
+                   <p class="full"> <label>Message</label> <textarea name="message" id="message" rows="5"></textarea> </p>
+                   <p class="full"> <button type="submit">Submit</button> </p>
+               </form>
+           </div>
+        </div>
+    </div>  
+</section>
+<!-- contact form ends -->
+
+
+
+
+
+
+
+<!-- footer begins -->
+
+<footer>
+    
+</footer>
+
+<!-- footer ends -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="main.js"></script>
+
+</body>
+</html>
