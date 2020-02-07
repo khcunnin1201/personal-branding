@@ -99,6 +99,15 @@ section#top .container {
 #about .container .skillset{
     padding: 40px;
 }
+#about .button-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  width: 100vw;
+  /* margin-top: 20px; */
+
+}
 #about .resume {
     padding: 40px;
 }
