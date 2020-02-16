@@ -16,5 +16,10 @@
 "url": "https://khcunnin-candyshop.netlify.com/",
 "image": "/images/candyshop.jpg",
 "description": "The candy shop site was created using Bootstrap and JQuery."
-}
+},
+{"id": 4,
+    "url": "https://khcunnin-clock.netlify.com/",
+    "image": "/images/clock-face-screenshot.jpg",
+    "description": "The clock was created using JavaScript functions."
+    }
 ]
