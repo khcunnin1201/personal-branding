@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
@@ -13,97 +11,105 @@
     <link href="https://fonts.googleapis.com/css?family=Forum&display=swap" rel="stylesheet">
 
     <!-- add bootstrap -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <!--add css file  -->
-    <link rel="stylesheet" href="/style.css">
-
-    <title>KHC Capstone</title>
+    <link rel="stylesheet" href="style.css">
+    <title>KHC</title>
 </head>
-
 <body>
+   
 <!-- nav bar begins -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #ebe9e9;">
-    <a class="navbar-brand" href="/index.html">KHC</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link active" href="index.html">Home</a>
-        <a class="nav-item nav-link active" href="#about">About</a>
-        <a class="nav-item nav-link active" href="#portfolio">Portfolio</a>
-        <a class="nav-item nav-link active" href="#contact">Contact</a>
-      </div>
-    </div>
-</nav>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #ebe9e9;">
+        <a class="navbar-brand" href="/index.html">KHC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="">Home</a>
+            <a class="nav-item nav-link active" href="#about">About</a>
+            <a class="nav-item nav-link active" href="#portfolio">Portfolio</a>
+            <a class="nav-item nav-link active" href="#contact">Contact</a>
+        </div>
+        </div>
+    </nav>
 <!-- nav bar ends -->
 
-<!-- home page begins -->
-<section id="top" class="container-fluid">
-    <div class="container">
-        <div class="img">
-            <div class="background-image"></div>
+<!-- top section begins -->
+    <section id="top" class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6 img-fluid text-center">
+                <img src="/images/profilepic.jpg">
+            </div>
+            <div class="col-lg-6 info text-center mt-md-4">
+                <h1>Kris Cunningham</h1>
+                <p>Web Developer & Engineer</p>
+                <p>Curious and creative storyteller</p>
+            </div>  
         </div>
-        <div class="info">
-            <h1>Kris Cunningham</h1>
-            <p>Web Developer & Engineer</p>
-            <p>Curious and creative storyteller</p>
-        </div>
-    </div>
-    <div class="home-logo">
-        <p></p>
+        
+    </section>
+    <div class="logo">
         <img class="banner" src="images/bannerstrip.jpg" height="90px">
     </div>
-</section>
-<!-- home page ends -->
+<!-- top section ends -->
 
-<!-- about me section begins -->
-<section id="about" class="container-fluid">
-    <h1 class="aboutme">About Me</h1>
-    <div class="container">    
-        <div class="me">
-            <h2>Get to know me</h2>
-            <p>I am data driven, detail oriented and strive to understand the big picture. I think systematically and strategically.  I have considerable Program Management experience and have always worked across organizational lines.  I am confident my engineering background and my experiences working side by side with IT personnel will continue to help me as I continue my web development career.  In my downtime, I enjoy trying new restaurants, reading, watching tv and movies or being creative – through scrapbooks, quilts or diy projects.</p>   
+<!-- about section begins -->
+<section id="about">
+    <h1 class="aboutme pt-5 pb-3">About Me</h1>
+    <div class="container text-center">
+        <p>I am data driven, detail oriented and strive to understand the big picture. I think systematically and strategically.  I have considerable Program Management experience and have always worked across organizational lines.  I am confident my engineering background and my experiences working side by side with IT personnel will continue to help me as I continue my web development career.  In my downtime, I enjoy trying new restaurants, reading, watching tv and movies or being creative – through scrapbooks, quilts or diy projects.</p>   
+    </div>
+    <div class="container"> 
+        <div class="row text-center">
+            <div class="tech col-lg-6 text-center">
+                <h3>Technical Skills</h3>
+                    <div id="tech"></div>
+            </div>
+            <div class="tech col-lg-6 text-center">
+                <h3>Management Skills</h3>
+                    <div id="mgmt"></div>
+            </div>  
         </div>
-        <div class="skillset">
-            <h2>Skills</h2>  
-            <div class="skill-container">
-                <div id="tech"></div>
-                <div id="mgmt"></div>
+    </div>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-6 resume">
+                <a href="/Kris Cunningham.pdf" class="btn btn-info btn-lg">Download Resume</a> 
+            </div>
+            <div class="col-lg-6 demoday">
+                <a href="/capstone project presentation.pdf" class="btn btn-info btn-lg">Capstone Project Description</a>
             </div>
         </div>
     </div>
-    <div class="button-container">
-        <div class="resume">
-            <a href="/Kris Cunningham Feb 2020.pdf" class="btn btn-info btn-lg">Download Resume</a> 
-        </div>
-        <div class="demoday">
-            <a href="/capstone project presentation.pdf" class="btn btn-info btn-lg">Capstone Project Description</a>
-        </div>
-    </div>
-    <div class="social-container">
-        <a href="https://www.linkedin.com/in/kris-cunningham/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <div class="about-logo">
-            <img src="images/bannerstrip.jpg" height="92px">
-        </div>
-        <a href="https://github.com/khcunnin1201/" target="_blank"><i class="fab fa-github"></i></a>
-    </div>
 
+    <div class="social-container">
+        <div class="row text-center align-items-center">
+            <div class="col-lg-4 findme">
+                <a href="https://www.linkedin.com/in/kris-cunningham/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="col-lg-4 about-logo">
+                <img src="images/bannerstrip.jpg" height="92px">
+            </div>
+            <div class="col-lg-4 findme">
+                <a href="https://github.com/khcunnin1201/" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </div>
 </section>
-<!-- about me section ends -->
+<!-- about section ends -->
 
 <!-- portfolio section begins -->
 <section id="portfolio" class="container-fluid">
     <h1>Portfolio</h1>
     <div id="port"></div>
-    <div class="portfolio-logo">
-        <p></p>
+    <div class="portfolio-logo banner">
         <img src="images/bannerstrip.jpg" height="80px">
     </div>
 </section>
 <!-- portfolio section ends -->
-  
+
 <!-- contact section begins -->
 <section id="contact" class="container-fluid">
     <h1>Contact Me</h1>
@@ -141,23 +147,9 @@
 
 
 
-
-
-
-
-<!-- footer begins -->
-
-<footer>
-    
-</footer>
-
-<!-- footer ends -->
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-<script src="main.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 </html>
